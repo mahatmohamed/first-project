@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #222;
+    background:#38A5AB;
+  }
+  .group {
+    margin-top: 170px;
+   }
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: #151E3F;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid orange;
+    float: left;
+    width: 390px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+.tag {
+  
+    color:rgb(228, 137, 19);
+    
+    padding: 5px;
+    border-radius: 3px;
+    display: table;
+    margin:auto;
+    font-size: 300%;
+  } 
+.note{
+    padding: 15px;
+    text-align:center ;
+}
+a[href^="mailto"]::before {
+    content: "📧 ";
+  }
+  
+  a[href^="tel"]::before {
+    content: "📞 ";
+  }
+
+
+
+@media screen and (min-width: 720px) {
+  
+    .flex {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 850px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+    }
+  
+    .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+    }
+  
+    main {
+      padding-top: 50px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+  }
+  .card-title{
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 5px 20px 5px;
+    background-color:#0399ff;
+    
+  }
+  h3{
+  color:blue;
+  letter-spacing:2px;
+  font-family:times new romance;
+  text-align:center;
+  }
+  h2{
+    color: white;
+  }
+  
