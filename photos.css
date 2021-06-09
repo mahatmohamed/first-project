@@ -15,11 +15,13 @@ body {
    }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 300%;
   color: #151E3F;
-  font-weight: 300;
+  font-weight: 300%;
   letter-spacing: 2px;
+  background-color: #38a5ab88;
+  
 }
 .container{
     margin: auto;
@@ -46,7 +48,7 @@ h1 {
     border-radius: 3px;
     display: table;
     margin:auto;
-    font-size: 300%;
+    /* font-size: 300%; */
   } 
 .note{
     padding: 15px;

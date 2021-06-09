@@ -11,6 +11,9 @@ body {
   color: #222;
   background:#38A5AB;
 }
+h1{
+  background-color: #38a5ab88;
+}
 .group {
   margin-top: 170px;
  }
